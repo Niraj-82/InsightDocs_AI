@@ -1,0 +1,26 @@
+# Core RAG Framework
+langchain==0.3.0
+langchain-community==0.3.0
+
+# Vector Database
+chromadb==0.5.23
+
+# Embeddings
+sentence-transformers==2.3.1
+transformers==4.36.2
+
+# ML Backend
+torch==2.1.2
+numpy==1.26.3
+
+# Ollama Integration
+ollama>=0.3.0
+
+# Utilities
+posthog<3.0.0
+tqdm==4.66.1
+typing-extensions==4.9.0
+
+# Optional: Performance improvements
+faiss-cpu==1.7.4  # Alternative to Chroma for larger datasets
+tiktoken==0.5.2   # Token counting for context management

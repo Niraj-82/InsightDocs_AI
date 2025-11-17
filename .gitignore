@@ -1,0 +1,7 @@
+__pycache__/
+venv/
+chroma_db/
+ambedkar_gpt.log
+*.pyc
+.DS_Store
+.env
